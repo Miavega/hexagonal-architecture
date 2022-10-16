@@ -1,0 +1,11 @@
+base_config:
+  role: "read" # Only for test the app, it should be environment var
+  base_path: "hexagonal_architecture/v1/"
+server:
+  host: 127.0.0.1
+  port: 8080
+  timeout:
+    server: 30
+    read: 15
+    write: 10
+    idle: 5
